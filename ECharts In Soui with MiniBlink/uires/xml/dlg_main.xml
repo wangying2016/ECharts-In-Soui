@@ -11,8 +11,8 @@ translucent="1"
       <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
       <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
     </caption>
-    <window pos="5,[2,-5,-5">
-      <wkeWebkit name="wke_test" pos="10,10,-10,-10" url="http://www.baidu.com"></wkeWebkit>
+    <window pos="15,[2,-5,-5">
+      <wkeWebkit pos="0,0,-0,-0" url="http://www.baidu.com/" name="wke_test"/>
     </window>
   </root>
 </SOUI>

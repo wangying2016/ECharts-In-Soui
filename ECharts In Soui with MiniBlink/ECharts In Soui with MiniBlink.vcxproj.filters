@@ -2,19 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{8d151f3f-a493-413e-b847-4ae31ab08555}</UniqueIdentifier>
+      <UniqueIdentifier>{1cfbbcda-6794-49a1-b5e3-ca554739bfdb}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{e8e8ce1a-99e2-425a-96f7-2189f9f97cea}</UniqueIdentifier>
+      <UniqueIdentifier>{b0a2d6a8-c3de-4f72-98d9-182efd27a71f}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{350a786f-5ca1-46eb-a102-71cbe5fadd7b}</UniqueIdentifier>
+      <UniqueIdentifier>{ebe9debd-00cc-4a47-96fb-112a78c66dd5}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
     </Filter>
     <Filter Include="SoUI Resouece">
-      <UniqueIdentifier>{740e8b3d-71b9-499f-a646-042057e4e1b4}</UniqueIdentifier>
+      <UniqueIdentifier>{18d34600-123f-413f-93ea-9702c7bf7196}</UniqueIdentifier>
       <Extensions>idx;xml;png;gif;jpg;ico;lua;bmp</Extensions>
     </Filter>
   </ItemGroup>
@@ -23,7 +23,7 @@
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ECharts In Soui.cpp">
+    <ClCompile Include="ECharts In Soui with MiniBlink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MainDlg.cpp">
@@ -32,12 +32,12 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="constrols\SWkeWebkit.cpp">
+    <ClCompile Include="controls\SMiniBlink.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="ECharts In Soui.rc">
+    <ResourceCompile Include="ECharts In Soui with MiniBlink.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
@@ -51,7 +51,7 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="constrols\SWkeWebkit.h">
+    <ClInclude Include="controls\SMiniBlink.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -59,8 +59,6 @@
     <None Include="res\soui_res.rc2">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="echarts\echarts.min.js" />
-    <None Include="echarts\Demo1.htm" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="uires\uidef\init.xml">
