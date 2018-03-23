@@ -1,40 +1,40 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="gb2312">
     <title>ECharts</title>
-    <!-- ÒıÈë echarts.js -->
+    <!-- å¼•å…¥ echarts.js -->
     <script src="echarts.min.js"></script>
 </head>
 <body>
     hello Soui
-    <!--Îª ECharts ×¼±¸Ò»¸ö¾ß±¸´óĞ¡£¨¿í¸ß£©µÄ DOM-->
+    <!--ä¸º ECharts å‡†å¤‡ä¸€ä¸ªå…·å¤‡å¤§å°ï¼ˆå®½é«˜ï¼‰çš„ DOM-->
     <div id="main" style="width:600px;height:400px;"></div>
     <script type="text/javascript">
-        // »ùÓÚ×¼±¸ºÃµÄdom£¬³õÊ¼»¯echartsÊµÀı
+        // åŸºäºå‡†å¤‡å¥½çš„domï¼Œåˆå§‹åŒ–echartså®ä¾‹
         var myChart = echarts.init(document.getElementById('main'));
 
-        // Ö¸¶¨Í¼±íµÄÅäÖÃÏîºÍÊı¾İ
+        // æŒ‡å®šå›¾è¡¨çš„é…ç½®é¡¹å’Œæ•°æ®
         var option = {
             title: {
-                text: 'ECharts ÈëÃÅÊ¾Àı'
+                text: 'ECharts å…¥é—¨ç¤ºä¾‹'
             },
             tooltip: {},
             legend: {
-                data: ['ÏúÁ¿']
+                data: ['é”€é‡']
             },
             xAxis: {
-                data: ["³ÄÉÀ", "ÑòÃ«ÉÀ", "Ñ©·ÄÉÀ", "¿ã×Ó", "¸ß¸úĞ¬", "Íà×Ó"]
+                data: ["è¡¬è¡«", "ç¾Šæ¯›è¡«", "é›ªçººè¡«", "è£¤å­", "é«˜è·Ÿé‹", "è¢œå­"]
             },
             yAxis: {},
             series: [{
-                name: 'ÏúÁ¿',
+                name: 'é”€é‡',
                 type: 'bar',
                 data: [5, 20, 36, 10, 10, 20]
             }]
         };
 
-        // Ê¹ÓÃ¸ÕÖ¸¶¨µÄÅäÖÃÏîºÍÊı¾İÏÔÊ¾Í¼±í¡£
+        // ä½¿ç”¨åˆšæŒ‡å®šçš„é…ç½®é¡¹å’Œæ•°æ®æ˜¾ç¤ºå›¾è¡¨ã€‚
         myChart.setOption(option);
     </script>
 </body>
