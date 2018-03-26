@@ -11,8 +11,12 @@ translucent="1"
       <imgbtn name="btn_restore" skin="_skin.sys.btn.restore"  pos="-83,0" show="0" animate="1" />
       <imgbtn name="btn_min" skin="_skin.sys.btn.minimize" pos="-121,0" animate="1" />
     </caption>
-    <window pos="15,[2,-5,-5">
-      <wkeWebkit pos="0,0,-0,-0" url="http://www.baidu.com/" name="wke_test"/>
+    <button pos="%10,35,@90,@30" offset="-0.5,0" name="btn_change_pie_1" focusable="0">五杀+1</button>
+    <button pos="%35,35,@90,@30" offset="-0.5,0" name="btn_change_pie_2" focusable="0">四杀+1</button>
+    <button pos="%60,35,@90,@30" offset="-0.5,0" name="btn_change_pie_3" focusable="0">三杀+1</button>
+    <button pos="%85,35,@90,@30" offset="-0.5,0" name="btn_change_pie_4" focusable="0">送成鬼+1</button>
+    <window pos="15,[5,-5,-5">
+      <wkeWebkit pos="0,0,-0,-0" url="E:\\myproject\\[4] Just for Fun\\ECharts In Soui\\ECharts In Soui with MiniBlink\\echarts\\Demo1.htm" name="wke_test"/>
     </window>
   </root>
 </SOUI>
